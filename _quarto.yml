@@ -1,0 +1,18 @@
+project:
+  type: website
+
+website:
+  navbar:
+    right:
+      - writing.qmd
+      - about.qmd
+      - icon: github
+        href: https://github.com/muertinho
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
