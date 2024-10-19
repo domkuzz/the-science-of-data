@@ -1,16 +1,43 @@
 ---
 title: "About"
-image: profile.jpg
+image: profile.svg
 about:
-  template: jolla
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
+  template: solana
 
+  # links:
+  #   - icon: github
+  #     text: Github
+  #     href: https://github.com
+
+format: html
+css: styles.css
+image-width: 50px
+image-height: 50px
 ---
+<div class="justify-text">
+Welcome to my blog! I'm Dom, a passionate data enthusiast with a keen interest in statistical methodologies. This blog is my space to explore, learn, and share insights about the fascinating world of data science.
 
-About this blog
+# My Journey
+
+My journey into data science is quite unique. I started as a physical therapist, where I developed a deep understanding of the human body and patient care. During my Master's degree in physiotherapy, I became increasingly interested in the quantitative aspects of health. This curiosity led me to pursue a second degree in computational life science, where I focused on the application of statistical modeling and statistics in the field of computational health. Currently, I work as a research associate, where I apply my expertise to develop innovative solutions in health sciences.
+
+# My Interests
+
+As a researcher with a keen interest in data analytics and machine learning, I am driven by the impact these fields have on health sciences. My goal is to use my clinical and scientific expertise to develop predictive models and data-driven solutions that can transform patient care and advance medical research.
+
+# What You'll Find Here
+
+On this blog, you'll find a mix of:    
+- **In-depth Articles**: Detailed explorations of statistical methods and their applications in data science.
+- **Tutorials**: Step-by-step guides to help you implement statistical techniques in your own projects.
+- **Discussions**: Thought-provoking posts aimed at sparking conversations and debates among fellow data enthusiasts.
+- **Learning Resources**: Recommendations for books, courses, and other materials that have helped me along the way.
+
+### Why I Blog
+
+I started with this blog to provide others with insights into data science and thereby deepen my understanding of statistical methodologies. Early on, I realized the importance of fundamental statistical concepts to adequately understand and interpret data. I found that to learn effectively, I need to adequately research a topic and document it concisely and precisely. Writing for an audience also challenges me to simplify complex ideas, and if I can explain a concept well enough for others to grasp it, then I know I’ve fully understood it myself.
+
+### Let's Connect
+</div>
+
+

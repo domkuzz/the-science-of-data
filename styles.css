@@ -1,5 +1,4 @@
 /* styles.css */
-.title-block h1 {
-    font-size: 30em; /* Adjust the size as needed */
-    font-weight: bold;
+  .justify-text {
+    text-align: justify;
   }

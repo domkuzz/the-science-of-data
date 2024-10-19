@@ -2,7 +2,11 @@ project:
   type: website
 
 website:
-  title: "TSOD"
+  title: "TSoD"
+  comments: 
+    hypothesis:
+      theme: clean
+      openSidebar: false
   navbar:
     right:
       - writing.qmd
@@ -12,7 +16,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: Litera
     css: styles.css
 
 

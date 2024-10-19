@@ -1,24 +1,27 @@
 ---
 title: "The Science of Data"
+image: profile.svg
 listing:
   contents: posts
   sort: "date desc"
-  type: default
+  type: table
   categories: false
   sort-ui: false
   filter-ui: false
+  max-items: 2
+
 page-layout: full
 title-block-banner: false
 ---
 #
+<div class="justify-text">
 
-## Motivation
+# Motivation
 
+Welcome to **The Science of Data**, a blog about statistical analysis in Python. The goal of this blog is to deepen my understanding of statistical methodologies and share these insights with fellow data enthusiasts.
 
-Welcome to "The Science of Data"! This blog chronicles my journey through the captivating world of data science. My goal is to document my learning experiences, share valuable resources, and connect with fellow enthusiasts who are passionate about data.
+Along with explaining and illustrating statistical concepts, some of the content will also include case studies, primarily from the medical field.  
+<br>
 
-While most of the case studies will focus on the medical field, the insights and methodologies discussed will be applicable across various domains.
-
-Through this platform, I aim to deepen my understanding of statistical methodologies and create a space for sharing and discussing these insights. 
-
-## Latest Posts
+# Latest Posts
+<div>

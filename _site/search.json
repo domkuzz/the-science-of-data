@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "Welcome to my blog! I’m Dom, a passionate data enthusiast with a keen interest in statistical methodologies. This blog is my space to explore, learn, and share insights about the fascinating world of data science.\n\nMy Journey\nMy journey into data science is quite unique. I started as a physical therapist, where I developed a deep understanding of the human body and patient care. During my Master’s degree in physiotherapy, I became increasingly interested in the quantitative aspects of health. This curiosity led me to pursue a second degree in computational life science, where I focused on the application of statistical modeling and statistics in the field of computational health. Currently, I work as a research associate, where I apply my expertise to develop innovative solutions in health sciences.\n\n\nMy Interests\nAs a researcher with a keen interest in data analytics and machine learning, I am driven by the impact these fields have on health sciences. My goal is to use my clinical and scientific expertise to develop predictive models and data-driven solutions that can transform patient care and advance medical research.\n\n\nWhat You’ll Find Here\nOn this blog, you’ll find a mix of:\n- In-depth Articles: Detailed explorations of statistical methods and their applications in data science. - Tutorials: Step-by-step guides to help you implement statistical techniques in your own projects. - Discussions: Thought-provoking posts aimed at sparking conversations and debates among fellow data enthusiasts. - Learning Resources: Recommendations for books, courses, and other materials that have helped me along the way.\n\nWhy I Blog\nI started with this blog to provide others with insights into data science and thereby deepen my understanding of statistical methodologies. Early on, I realized the importance of fundamental statistical concepts to adequately understand and interpret data. I found that to learn effectively, I need to adequately research a topic and document it concisely and precisely. Writing for an audience also challenges me to simplify complex ideas, and if I can explain a concept well enough for others to grasp it, then I know I’ve fully understood it myself.\n\n\nLet’s Connect"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -25,14 +25,14 @@
     "href": "index.html",
     "title": "The Science of Data",
     "section": "",
-    "text": "Welcome to “The Science of Data”! This blog chronicles my journey through the captivating world of data science. My goal is to document my learning experiences, share valuable resources, and connect with fellow enthusiasts who are passionate about data.\nWhile most of the case studies will focus on the medical field, the insights and methodologies discussed will be applicable across various domains.\nThrough this platform, I aim to deepen my understanding of statistical methodologies and create a space for sharing and discussing these insights."
+    "text": "Motivation\nWelcome to The Science of Data, a blog about statistical analysis in Python. The goal of this blog is to deepen my understanding of statistical methodologies and share these insights with fellow data enthusiasts.\nAlong with explaining and illustrating statistical concepts, some of the content will also include case studies, primarily from the medical field.\n\n\n\nLatest Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nOct 10, 2024\n\n\nPost With Code\n\n\nHarlow Malloc\n\n\n\n\nOct 10, 2024\n\n\nBy Hand: Principal Component Analysis\n\n\nDom \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#motivation",
     "href": "index.html#motivation",
     "title": "The Science of Data",
     "section": "",
-    "text": "Welcome to “The Science of Data”! This blog chronicles my journey through the captivating world of data science. My goal is to document my learning experiences, share valuable resources, and connect with fellow enthusiasts who are passionate about data.\nWhile most of the case studies will focus on the medical field, the insights and methodologies discussed will be applicable across various domains.\nThrough this platform, I aim to deepen my understanding of statistical methodologies and create a space for sharing and discussing these insights."
+    "text": "Welcome to The Science of Data, a blog about statistical analysis in Python. The goal of this blog is to deepen my understanding of statistical methodologies and share these insights with fellow data enthusiasts.\nAlong with explaining and illustrating statistical concepts, some of the content will also include case studies, primarily from the medical field."
   },
   {
     "objectID": "index.html#posts",
@@ -46,7 +46,7 @@
     "href": "writing.html",
     "title": "Writing",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 7, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nBy Hand: Principal Component Analysis\n\n\n\n\n\n\nby Hand\n\n\ncode\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nDom\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 7, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "writing.html#welcome-to-my-writing",
@@ -68,5 +68,33 @@
     "title": "The Science of Data",
     "section": "Latest Posts",
     "text": "Latest Posts"
+  },
+  {
+    "objectID": "posts/test-post/test.html",
+    "href": "posts/test-post/test.html",
+    "title": "By Hand: Principal Component Analysis",
+    "section": "",
+    "text": "print(\"Hello World\")\n\nHello World\n\n\n\nTitle\n\nFancy shmanzy"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to my blog! I’m Dom, a passionate data enthusiast with a keen interest in statistical methodologies. This blog is my space to explore, learn, and share insights about the fascinating world of data science.\n\n\nMy journey into data science is quite unique. I started as a physical therapist, where I developed a deep understanding of the human body and patient care. During my Master’s degree in physiotherapy, I became increasingly interested in the quantitative aspects of health. This curiosity led me to pursue a second degree in computational life science, where I focused on the application of statistical modeling and statistics in the field of computational health. Currently, I work as a research associate, where I apply my expertise to develop innovative solutions in health sciences.\n\n\n\nAs a researcher with a keen interest in data analytics and machine learning, I am driven by the impact these fields have on health sciences. My goal is to use my clinical and scientific expertise to develop predictive models and data-driven solutions that can transform patient care and advance medical research.\n\n\n\nOn this blog, you’ll find a mix of: - In-depth Articles: Detailed explorations of statistical methods and their applications in data science. - Tutorials: Step-by-step guides to help you implement statistical techniques in your own projects. - Discussions: Thought-provoking posts aimed at sparking conversations and debates among fellow data enthusiasts. - Learning Resources: Recommendations for books, courses, and other materials that have helped me along the way.\n\n\n\nI started with this blog to provide others with insights into data science and thereby deepen my understanding of statistical methodologies. Early on, I realized the importance of fundamental statistical concepts to adequately understand and interpret data. I found that to learn effectively, I need to adequately research a topic and document it concisely and precisely. Writing for an audience also challenges me to simplify complex ideas, and if I can explain a concept well enough for others to grasp it, then I know I’ve fully understood it myself."
+  },
+  {
+    "objectID": "about.html#my-journey",
+    "href": "about.html#my-journey",
+    "title": "About",
+    "section": "",
+    "text": "My journey into data science is quite unique. I started as a physical therapist, where I developed a deep understanding of the human body and patient care. During my Master’s degree in physiotherapy, I became increasingly interested in the quantitative aspects of health. This curiosity led me to pursue a second degree in computational life science, where I focused on the application of statistical modeling and statistics in the field of computational health. Currently, I work as a research associate, where I apply my expertise to develop innovative solutions in health sciences."
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
+    "title": "About",
+    "section": "",
+    "text": "As a researcher with a keen interest in data analytics and machine learning, I am driven by the impact these fields have on health sciences. My goal is to use my clinical and scientific expertise to develop predictive models and data-driven solutions that can transform patient care and advance medical research.\n\n\nOn this blog, you’ll find a mix of:\n- In-depth Articles: Detailed explorations of statistical methods and their applications in data science. - Tutorials: Step-by-step guides to help you implement statistical techniques in your own projects. - Discussions: Thought-provoking posts aimed at sparking conversations and debates among fellow data enthusiasts. - Learning Resources: Recommendations for books, courses, and other materials that have helped me along the way.\n\n\n\nI started with this blog to provide others with insights into data science and thereby deepen my understanding of statistical methodologies. Early on, I realized the importance of fundamental statistical concepts to adequately understand and interpret data. I found that to learn effectively, I need to adequately research a topic and document it concisely and precisely. Writing for an audience also challenges me to simplify complex ideas, and if I can explain a concept well enough for others to grasp it, then I know I’ve fully understood it myself."
   }
 ]
