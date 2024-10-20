@@ -13,7 +13,7 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/muertinho
-
+        
 format:
   html:
     theme: Litera
