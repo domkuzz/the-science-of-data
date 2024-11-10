@@ -3,20 +3,34 @@ project:
 
 website:
   title: "TSoD"
-  comments: 
-    hypothesis:
-      theme: clean
-      openSidebar: false
+  image: "logo.png"
+  description: "The Science of Data"
   navbar:
     right:
       - writing.qmd
       - about.qmd
       - icon: github
-        href: https://github.com/muertinho
-        
+        href: https://github.com/domkuzz
+  page-footer:
+    left:
+      - "© 2024"
+
+output:
+
+  # Output
+  format: quarto::bookdown
+
+  # Output options
+  self_contained: true
+  number_sections: true
+  toc: true
+  toc_float:
+    collapsed: false
+
+
 format:
   html:
-    theme: Litera
+    theme: Journal  
     css: styles.css
 
 

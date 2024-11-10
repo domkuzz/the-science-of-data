@@ -1,46 +1,43 @@
 ---
 title: "About"
-image: profile.svg
+image: logo.png
+
 about:
   template: solana
 
-  # links:
-  #   - icon: github
-  #     text: Github
-  #     href: https://github.com
-
 format: html
 css: styles.css
-image-width: 50px
-image-height: 50px
+image-width: 60px
+image-height: 60px
+comments: false
+page-layout: article
 ---
-<div class="justify-text">
-Welcome to my website! I'm Dom, a passionate researcher with a keen interest in statistical methodologies. This blog is my space to explore, learn, and share insights about the fascinating world of data science.
+
+Welcome to my website! I'm Dom, a passionate researcher with a keen interest in mdedical data and statistical methodologies. This blog is my space to explore concepts and share insights about the fascinating world of data science.
 
 # My journey
 
-My path to data science has been anything but straightforward. I  began my career as a physical therapist, driven by a passion for helping people recover from injuries and enhance their quality of life. This role allowed me to deeply understand human anatomy,  pathologies, and patient care. While pursuing my Master’s degree in physiotherapy, I took courses in biostatistics and statistical programming. It was then that I discovered the potential of statistics in health sciences to improve patient outcomes.    
+My path to data science has been anything but straightforward. I began my career as a physical therapist, driven by a passion for helping people recover from injuries. While pursuing my Master’s degree in physical therapy, I took biostatistics and statistical programming courses. Then, I discovered the potential of statistics in health sciences to improve patient outcomes. 
 
-My growing interest in the quantitative side of health led me to pursue a second Master’s degree in computational life science, where I specialized in machine learning and the statistical analysis of medical data. Today, I work as a research associate, using my expertise to develop predictive models and data-driven solutions in computational health.
+Fascinated by the opportunities of statistics and machine learning, I needed to solidify my foundation in programming, mathematics, and statistics, which drove me to pursue a further degree in Computational Life Science. Today, I work as a research associate, using my expertise to develop predictive models and data-driven solutions in computational health. In addition to research, I assist in teaching courses in machine learning, signal processing, and informatics at the undergraduate level.
 
 # What you'll find here
 
-On this blog, you'll find a mix of:   
+On this blog, you’ll find a mix of:
 
-- **In-depth Articles**: The articles will cover the core concepts of statistics: Descriptive and inferential statistics, predictive modeling, and exploratory data analysis. I am keen on working hands-on with Python and will provide code examples to illustrate concepts.
+- **In-depth Articles:** The articles will cover the core statistical concepts: Descriptive and inferential statistics, predictive modeling, and exploratory data analysis. I am keen on working hands-on with Python and will provide code examples to illustrate concepts.
 
-- **Case Studies**: Real-world examples of statistical analysis. As a I have a former background in health sciences, the main focus will be on medical data.
+- **Case Studies:** Real-world examples of statistical analysis.  With my former background in health sciences, the main focus will be on medical data.
 
-- **By Hand**: A series of articles where I will implement statistical concepts from scratch. This will help me and others to understand the underlying mathematics and logic behind statistical methods.
+- **Stats by Hand:** A series of articles where I will implement statistical concepts from scratch. This will help me and others to understand the underlying mathematics and logic behind statistical methods.
 
 
 # Why this Blog
 
-I started with this blog to provide others with insights into data science and thereby deepen my understanding of statistical methodologies. Early on, I realized the importance of fundamental statistical concepts to adequately understand and interpret data. I found that to learn effectively, I need to adequately research a topic and document it concisely and exactly. Writing for an audience also challenges me to simplify complex ideas. Once I can explain a concept well enough for others to grasp, I know I’ve fully understood it myself.     
+I started with this blog to provide others with insights into data science and deepen my understanding of statistical methodologies. Early on, I realized the importance of fundamental statistical concepts to adequately understand and interpret data. Through my studies, I found that I need to research and document a topic concisely and precisely to learn effectively. It is when I can explain a concept well enough for others to grasp that I fully understand it myself. This process often involves simplifying complex concepts into well-understandable terms.
+ 
 
 *Please note that the content of this blog reflects my personal opinions and does not represent the views of my employer(s).*
 
-### Let's Connect
-</div>
 
 

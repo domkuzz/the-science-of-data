@@ -14,5 +14,13 @@
       "/posts/test-post/test.html",
       "/posts/welcome/index.html"
     ]
+  },
+  {
+    "listing": "/about.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/test-post/test.html",
+      "/posts/welcome/index.html"
+    ]
   }
 ]

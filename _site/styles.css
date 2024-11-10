@@ -1,4 +1,7 @@
 /* styles.css */
-  .justify-text {
+body {
     text-align: justify;
+    margin: 0;
+    padding: 0;
+    color: #333;
   }
