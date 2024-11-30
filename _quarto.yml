@@ -1,0 +1,43 @@
+project:
+  type: website
+
+website:
+  title: "TSoD"
+  image: "logo.png"
+  description: "The Science of Data"
+  navbar:
+    right:
+      - writing.qmd
+      - about.qmd
+      - icon: github
+        href: https://github.com/domkuzz
+  page-footer:
+    left:
+      - "© 2024"
+
+output:
+
+  # Output
+  format: quarto::bookdown
+
+  # Output options
+  self_contained: true
+  number_sections: true
+  toc: true
+  toc_depth: 4
+  toc_float:
+    collapsed: false
+
+
+format:
+  html:
+    theme: Journal  
+    css: styles.css
+
+dependencies:
+  - python: plotly
+  - python: ipywidgets
+  - python: pandas
+
+#echo: false
+
