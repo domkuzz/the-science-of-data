@@ -4,7 +4,7 @@ author: "Dom"
 date: "2024-11-10"
 execute: 
   echo: false
-categories: [by hand, basics]
+categories: [Stats by hand, distributions]
 format: 
   html:
     toc: true
@@ -17,7 +17,7 @@ csl: ieee.csl
 
 <div style="text-align: left; margin-top: 15px;">
   <img src="images/francis-galton.jpg" alt="Francis Galton" style="width:320px;">
-  <p style="margin-top: 15px;"><em>Figure 1: Sir Francis Galton (1822–1911) [@wiki:galton]</em></p>
+  <p style="margin-top: 15px;"></p>
 </div>
 
 
@@ -32,7 +32,7 @@ Central Limit Theorem, and Pascal's Triangle.
 The Galton Board was invented by Sir Francis Galton (1822–1911) in the late 19th century to 
 demonstrate the Central Limit Theorem. Galton was a polymath who significantly contributed to various fields, 
 including statistics, psychology, and biology. He further developed statistical correlation methods 
-and widely promoted regression towards the mean. The Galton Board, also known as Quincunx or Bean Machine, 
+and widely promoted regression towards the mean [@wiki:galton]. The Galton Board, also known as Quincunx or Bean Machine, 
 consists of a vertical board with a number of pegs arranged in a triangular pattern. At the top of the board is a funnel through which balls are dropped. The balls, usually several thousand, 
 bounce off the pegs either to the left or right with equal probability at each peg 
 (given the symmetry of the pegs, the correct size of the balls, and the level of the board). 
@@ -89,8 +89,7 @@ P(1) &= \binom{7}{1} 0.5^1 (1-0.5)^{7-1} = 0.0547. \tag{4}
 $$
 
 Table 1 shows the probability distribution of our experiment over all eight bins.
-We observe that the probabilities are not the same for each bin. In fact, it is much more 
-likely that the ball lands in the middle bins than in the outer bins. 
+We observe that the probabilities are not the same for each bin. In fact, it is much more likely that the ball lands in on of the middle bins than in the outer bins. 
 What happens now if we repeat the experiment several times, 
 let's say several thousand times, and increase the number of rows? 
 To answer this question, I need to introduce the Central Limit Theorem.
@@ -161,7 +160,6 @@ def create_galton_board_figure(n_balls=3000, min_levels=1, max_levels=40, initia
     initial_p_success = probabilities[0]
     initial_bins, initial_x, initial_gaussian = all_data[initial_p_success][initial_levels - min_levels]
 
-    # Initialize the figure
     fig = go.Figure()
     fig.add_trace(go.Bar(x=list(range(initial_levels + 1)), y=initial_bins, name="Bin number"))
     fig.add_trace(go.Scatter(x=initial_x, y=initial_gaussian, mode="lines", name="Gaussian", visible="legendonly"))
