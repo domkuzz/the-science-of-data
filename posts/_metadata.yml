@@ -4,5 +4,10 @@
 # (see https://quarto.org/docs/projects/code-execution.html#freeze)
 freeze: true
 
+# Enable the use of the `quarto` package
+quarto: true
+
 # Enable banner style title blocks
 title-block-banner: false
+
+

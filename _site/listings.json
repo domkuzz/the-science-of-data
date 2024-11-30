@@ -2,17 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/test-post/test.html",
-      "/posts/welcome/index.html"
+      "/posts/basics/galton/2024_10_31_galton.html",
+      "/posts/post-with-code/index.html"
     ]
   },
   {
     "listing": "/writing.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/test-post/test.html",
-      "/posts/welcome/index.html"
+      "/posts/basics/galton/2024_10_31_galton.html",
+      "/posts/post-with-code/index.html"
     ]
   },
   {

@@ -24,6 +24,7 @@ output:
   self_contained: true
   number_sections: true
   toc: true
+  toc_depth: 4
   toc_float:
     collapsed: false
 
@@ -33,5 +34,10 @@ format:
     theme: Journal  
     css: styles.css
 
+dependencies:
+  - python: plotly
+  - python: ipywidgets
+  - python: pandas
 
+#echo: false
 
