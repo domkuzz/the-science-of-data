@@ -3,7 +3,6 @@ project:
 
 website:
   title: "TSoD"
-  image: "logov2.png"
   description: "The Science of Data"
   navbar:
     right:

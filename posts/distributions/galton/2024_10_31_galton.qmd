@@ -13,6 +13,7 @@ format:
     css: "../../../styles.css"
 bibliography: references.bib
 csl: ieee.csl
+page-layout: article
 ---
 
 <div style="text-align: left; margin-top: 15px;">
