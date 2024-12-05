@@ -25,8 +25,8 @@ page-layout: article
 # Introduction
 Hello World! This is my first post on this blog. I am excited to share my thoughts and ideas with you. 
 I hope you will enjoy reading them as much as I enjoy writing them. 
-I recently bought a Galton Board, and I am fascinated by it. Hence, I decided to write about it. 
-In this post, I will discuss the device and, with it, the concepts of Binomial Distribution, 
+I recently bought a Galton Board, and I am fascinated by it.
+The device is a great example of how statistical concepts can be visualized and understood through simple experiments. This is why I decided to make it the topic of my first post. In this post, I will discuss the experiment and, with it, the concepts of Binomial Distribution, 
 Central Limit Theorem, and Pascal's Triangle.
 
 # Galton Board
@@ -243,8 +243,8 @@ expressed $\binom{7}{4}$. In fact, the figure below displays that Pascal's Trian
 showing the number of paths the purple ball can take to reach each bin.
 
 <div style="text-align: center;">
-  <img src="images/pascal_triangle.png" alt="Pascal's Triangle" style="width:850px; margin-right: 20px;">
-  <p><em>Figure 3: Pascal's Triangle illustrating the binomial coefficients.</em></p>
+  <img src="images/pascal_triangle.png" alt="Pascal's Triangle" style="width:550px;">
+  <p style="margin-top: 15px;"><em>Figure 3: Pascal's Triangle illustrating the binomial coefficients.</em></p>
 </div>
 
 # Conclusion
