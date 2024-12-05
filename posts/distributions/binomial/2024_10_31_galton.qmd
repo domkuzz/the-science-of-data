@@ -243,7 +243,7 @@ expressed $\binom{7}{4}$. In fact, the figure below displays that Pascal's Trian
 showing the number of paths the purple ball can take to reach each bin.
 
 <div style="text-align: center;">
-  <img src="images/pascal_triangle.png" alt="Pascal's Triangle" style="width:850px;">
+  <img src="images/pascal_triangle.png" alt="Pascal's Triangle" style="width:850px; margin-right: 20px;">
   <p><em>Figure 3: Pascal's Triangle illustrating the binomial coefficients.</em></p>
 </div>
 
