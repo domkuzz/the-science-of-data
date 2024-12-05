@@ -106,7 +106,7 @@ bin 0 | bin 1 | bin 2 | bin 3 | bin 4 | bin 5 | bin 6 | bin 8
 </div>
 
 # Central Limit Theorem
-The Central Limit Theorem (CLT) is the second fundamental theorem in probability theory.
+The Central Limit Theorem (CLT) is one of the fundamental theorem in probability theory.
 It states that the distribution of the sum $S_{n}$ of $n$ independent and identically distributed (iid) random variables,
 will converge to a normal or Gaussian distribution as $n$ approaches a large number. 
 The distribution function of  $S_{n}$ is therefore approximated by the normal distribution function
@@ -117,7 +117,7 @@ $$
 
 where $\mu$ and $\sigma^2$ are the distribution mean and variance, respectively, and $x$ is the random variable. 
 If we consider the final position of each ball in our experiment as the sum $S_{n}$ of $n$ independent 
-Bernoulli trials, the distribution of these sums will, so in theory, approximate a normal distribution as the number of trials (rows) increases, 
+Bernoulli trials, the distribution of these sums will approximate a normal distribution as the number of trials (rows) increases, 
 regardless of the shape of the original distribution.
 
 To illustrate this, I used Python to simulate the Galton Board experiment. 
