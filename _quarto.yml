@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 website:
+  google-analytics: G-MNBR6FCJ5K
   title: "TSoD"
   description: "The Science of Data"
-  google-analytics: "G-MNBR6FCJ5K"
   navbar:
     right:
       - writing.qmd
