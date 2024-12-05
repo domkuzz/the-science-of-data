@@ -1,0 +1,257 @@
+---
+title: "Galton Board: The Binomial Distribution, Pascal's Triangle, and the Central Limit Theorem"
+author: "Dom"
+date: "2024-12-05"
+execute: 
+  echo: false
+categories: [Stats by hand, distributions]
+format: 
+  html:
+    toc: true
+    toc-title: "Table of Contents"
+    toc-depth: 4
+    css: "../../../styles.css"
+bibliography: references.bib
+csl: ieee.csl
+page-layout: article
+---
+
+<div style="text-align: left; margin-top: 15px;">
+  <img src="images/francis-galton.jpg" alt="Francis Galton" style="width:320px;">
+  <p style="margin-top: 15px;"></p>
+</div>
+
+
+# Introduction
+Hello World! This is my first post on this blog. I am excited to share my thoughts and ideas with you. 
+I hope you will enjoy reading them as much as I enjoy writing them. 
+I recently bought a Galton Board, and I am fascinated by it.
+The device is a great example of how statistical concepts can be visualized and understood through simple experiments. This is why I decided to make it the topic of my first post. In this post, I will discuss the experiment and, with it, the concepts of Binomial Distribution, 
+Central Limit Theorem, and Pascal's Triangle.
+
+# Galton Board
+The Galton Board was invented by Sir Francis Galton (1822–1911) in the late 19th century to 
+demonstrate the Central Limit Theorem. Galton was a polymath who significantly contributed to various fields, 
+including statistics, psychology, and biology. He further developed statistical correlation methods 
+and widely promoted regression towards the mean [@wiki:galton]. The Galton Board, also known as Quincunx or Bean Machine, 
+consists of a vertical board with a number of pegs arranged in a triangular pattern. At the top of the board is a funnel through which balls are dropped. The balls, usually several thousand, 
+bounce off the pegs either to the left or right with equal probability at each peg 
+(given the symmetry of the pegs, the correct size of the balls, and the level of the board). 
+As they fall down the board, each ball eventually rests in one of the bins at the bottom. 
+The number of bins equals the number of rows plus one in the experiment. 
+The astonishing result is that the balls always accumulate in a bell-shaped curve known as the Gaussian 
+or Normal Distribution. But how does this work?
+
+<div style="text-align: center;">
+  <img src="images/quinqunx.svg" alt="Galton board" style="width:320px;">
+  <p style="margin-top: 15px;"><em>Figure 2: Galton Board illustration [@mathworld:galton]</em></p>
+</div>
+
+# Binomial Distribution 
+In its essence, the Galton Board represents a series of repeated independent random trials with exactly two possible outcomes (here: left or right), referred to as a Bernoulli process [@papoulis1965random]. Each row of pegs on the board represents a trial, with the ball given a 50% chance of falling to either side. 
+The ball's final position in the bins at the bottom of the device represents the sum of $n$ such random trials. 
+With the given number of trials $n$ and the known probability of success $p=0.5$, we can define a particular bin as the number of successes $k$ (i.e., right turns) 
+and calculate the probability of the ball landing in that bin $P(k)$. To find  $P(k)$, we need to calculate the number of possible ways to get $k$ successes 
+in $n$ trials and then multiply it by the probability $p$ of success raised to the power of $k$ and the likelihood of failure raised to the power of $n-k$. 
+Mathematically, this is expressed as follows:
+
+$$
+P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}, \tag{1}
+$$
+
+where
+
+$$
+\binom{n}{k} = \frac{n!}{k!(n-k)!}. \tag{2}
+$$
+
+The expression above is known as the Binomial Distribution formula. By definition, the Binomial Distribution is a discrete probability 
+distribution that can be used to model the number of successes in a fixed number of trials, 
+where each trial has the same probability of success. Successes and failures are merely labels and don't 
+have to be related to the literal meaning of the words. The Binomial Distribution is symmetric 
+when the probability of success is 0.5, as with the Galton Board. To better grasp this concept, 
+let's calculate the probability of the ball landing in each bin based on the above-displayed example 
+(seven rows and eight bins) using the Binomial Distribution formula. First, we have to define either direction as a success and the other as a failure. 
+Let's stick with the *right direction* as a success and 
+plug in the values for $n=7$ and $p=0.5$ into the formula. Starting with the first bin at the left, 
+we get $k=0$ successes and $n-k=7$ failures. The probability of the ball landing in the first bin is therefore
+
+$$
+\begin{align*}
+P(0) &= \binom{7}{0} 0.5^0 (1-0.5)^{7-0} = 0.0078. \tag{3} 
+\end{align*}
+$$
+
+Continuing with the second bin, we get $k=1$ success and $n-k=6$ failures. The probability of landing in the second bin is thus
+$$
+\begin{align*}
+P(1) &= \binom{7}{1} 0.5^1 (1-0.5)^{7-1} = 0.0547. \tag{4}
+\end{align*}
+$$
+
+Table 1 shows the probability distribution of our experiment over all eight bins.
+We observe that the probabilities are not the same for each bin. In fact, it is much more likely that the ball lands in on of the middle bins than in the outer bins. 
+What happens now if we repeat the experiment several times, 
+let's say several thousand times, and increase the number of rows? 
+To answer this question, I need to introduce the Central Limit Theorem.
+
+#
+
+<div style="text-align: left">
+: Table 1. Probability distribution for a Galton Board with 7 rows and 8 bins.
+
+bin 0 | bin 1 | bin 2 | bin 3 | bin 4 | bin 5 | bin 6 | bin 8
+--- | --- | --- | --- | --- | --- | --- | ---
+0.0078 | 0.0547 | 0.1641 | 0.2734 | 0.2734 | 0.1641 | 0.0547 | 0.0078
+</div>
+
+# Central Limit Theorem
+The Central Limit Theorem (CLT) is the second fundamental theorem in probability theory.
+It states that the distribution of the sum $S_{n}$ of $n$ independent and identically distributed (iid) random variables,
+will converge to a normal or Gaussian distribution as $n$ approaches a large number. 
+The distribution function of  $S_{n}$ is therefore approximated by the normal distribution function
+
+$$
+f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}, \tag{5}
+$$
+
+where $\mu$ and $\sigma^2$ are the distribution mean and variance, respectively, and $x$ is the random variable. 
+If we consider the final position of each ball in our experiment as the sum $S_{n}$ of $n$ independent 
+Bernoulli trials, the distribution of these sums will, so in theory, approximate a normal distribution as the number of trials (rows) increases, 
+regardless of the shape of the original distribution.
+
+To illustrate this, I used Python to simulate the Galton Board experiment. 
+The plot shows the probability distribution of 3000 balls falling into different bins for a selected number of rows.
+By clicking on the red line, you can also see a Gaussian approximation of the experiments' distribution by applying the normal distribution function shown above. 
+The slider allows you to change the number of rows and observe how the distribution changes. Notice how the binomial distribution
+slowly converges to the normal distribution as the number of rows in the experiment increases? This is the Central Limit Theorem in action! Try to see what happens when you change
+the probability of success to 0.3. Notice that regardless of the likelihood of success, the distribution will always converge to a normal distribution.
+In this case, however, it will be shifted to the left, as we defined the right direction as "success."
+
+### Galton Board Simulation
+
+```{python}
+import numpy as np
+import math
+import plotly.graph_objects as go
+from scipy.stats import norm
+
+def galton_board_simulation(n_balls, n_levels, p_success=0.5):
+    bins = np.zeros(n_levels + 1)
+    for _ in range(n_balls):
+        position = sum(np.random.choice([0, 1], p=[1-p_success, p_success]) for _ in range(n_levels))
+        bins[position] += 1
+
+    x = np.linspace(-3, n_levels + 3, 500)
+    mean, std_dev = n_levels * p_success, math.sqrt(n_levels * (1-p_success) * p_success)
+    gaussian = norm.pdf(x, mean, std_dev)
+
+    return bins / n_balls, x, gaussian
+
+def create_galton_board_figure(n_balls=3000, min_levels=1, max_levels=40, initial_levels=1, probabilities=[0.5, 0.3]):
+    # Precompute all data
+    all_data = {}
+    for p_success in probabilities:
+        all_data[p_success] = []
+        for n_levels in range(min_levels, max_levels + 1):
+            bins, x, gaussian = galton_board_simulation(n_balls, n_levels, p_success)
+            all_data[p_success].append((bins, x, gaussian))
+
+    # Initial settings
+    initial_p_success = probabilities[0]
+    initial_bins, initial_x, initial_gaussian = all_data[initial_p_success][initial_levels - min_levels]
+
+    fig = go.Figure()
+    fig.add_trace(go.Bar(x=list(range(initial_levels + 1)), y=initial_bins, name="Bin number"))
+    fig.add_trace(go.Scatter(x=initial_x, y=initial_gaussian, mode="lines", name="Gaussian", visible="legendonly"))
+
+    # Create slider steps
+    steps = []
+    for n_levels in range(min_levels, max_levels + 1):
+        bins, x, gaussian = all_data[initial_p_success][n_levels - min_levels]
+        steps.append(dict(
+            method="update",
+            args=[{"y": [bins, gaussian],
+                   "x": [list(range(len(bins))), x]},
+                  {"xaxis.title.text": "Bin number"}],
+            label=f"{n_levels}"
+        ))
+
+    # Create buttons for probabilities
+    buttons = []
+    for p_success in probabilities:
+        buttons.append(dict(
+            label=f"P(success)={p_success}",
+            method="update",
+            args=[{"y": [all_data[p_success][initial_levels - min_levels][0],
+                         all_data[p_success][initial_levels - min_levels][2]],
+                   "x": [list(range(len(all_data[p_success][initial_levels - min_levels][0]))),
+                         all_data[p_success][initial_levels - min_levels][1]]},
+                  {"sliders": [{"steps": [
+                      dict(
+                          method="update",
+                          args=[{"y": [all_data[p_success][n_levels - min_levels][0],
+                                       all_data[p_success][n_levels - min_levels][2]],
+                                 "x": [list(range(len(all_data[p_success][n_levels - min_levels][0]))),
+                                       all_data[p_success][n_levels - min_levels][1]]}],
+                          label=f"{n_levels}"
+                      )
+                      for n_levels in range(min_levels, max_levels + 1)
+                  ]}]}]
+        ))
+
+    # Add sliders and buttons
+    fig.update_layout(
+        sliders=[dict(
+            active=initial_levels - min_levels,
+            currentvalue={"prefix": "Number of rows: "},
+            pad={"t": 50},
+            steps=steps
+        )],
+        updatemenus=[dict(
+            type="dropdown",
+            buttons=buttons,
+            direction="down",
+            showactive=True,
+        )],
+        xaxis=dict(title="Bin number", range=[-3, max_levels]),
+        yaxis=dict(title="Probability Mass", range=[0, 0.9], gridcolor='lightgray'),
+        plot_bgcolor='white',
+        paper_bgcolor='white'
+    )
+
+    fig.show()
+
+create_galton_board_figure()
+
+
+
+```
+
+
+
+# Pascal's Triangle
+
+The Binomial Distribution formula can be further simplified by using Pascal's Triangle. The French mathematician Blaise Pascal (1623–1662) 
+introduced the Triangle in the 17th century. Pascal's Triangle has many interesting properties and applications in mathematics, one of
+the most famous being the binomial coefficients. It is a triangular array of binomial coefficients, where each number is the sum of the two numbers directly above it.
+The Triangle starts with a 1 at the top and continues downwards, with each row representing the coefficients of the binomial expansion of $(a+b)^n$.
+The coefficients of the $n$-th row of Pascal's Triangle correspond to the coefficients of the Binomial Distribution formula for $n$ trials.
+Here is how to use it: Let's say we want to calculate all possible ways a ball can take 4 right turns in 7 trials to end up in bin number 3 in the above example.
+We then look at the 7th row of Pascal's Triangle and find the 4th number, which shows that there are 35 ways to get 4 successes in 7 trials, or mathematically
+expressed $\binom{7}{4}$. In fact, the figure below displays that Pascal's Triangle can be perfectly overlaid with the Galton Board experiment, 
+showing the number of paths the purple ball can take to reach each bin.
+
+<div style="text-align: center;">
+  <img src="images/pascal_triangle.png" alt="Pascal's Triangle" style="width:650px;">
+  <p style="margin-top: 15px;"><em>Figure 3: Pascal's Triangle illustrating the binomial coefficients.</em></p>
+</div>
+
+# Conclusion
+The Galton Board is a fascinating device that demonstrates the Binomial Distribution, Pascal's Triangle, and the Central Limit Theorem.
+Despite its simplicity, the device visually represents how the Binomial Distribution converges to a Normal Distribution as the number 
+of trials increases. Bernoulli famously used urn models, applying a sampling process with replacement over a discrete number of trials 
+to explain the Binomial Distribution. Both examples show how probability theory can be visualized and understood through simple experiments and applied to more complex, real-world problems. 
+Thank you for sticking around and reading this post to the end. I hope you enjoyed it and learned something new.
+Please feel free to leave a comment if you have any questions or feedback. I am always happy to hear from you!
+
