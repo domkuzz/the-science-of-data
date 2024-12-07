@@ -258,8 +258,6 @@ Please feel free to leave a comment if you have any questions or feedback. I am 
 <script src="https://giscus.app/client.js"
         data-repo="domkuzz/tsod"
         data-repo-id="R_kgDOM-fayA"
-        data-category="[ENTER CATEGORY NAME HERE]"
-        data-category-id="[ENTER CATEGORY ID HERE]"
         data-mapping="title"
         data-strict="0"
         data-reactions-enabled="1"
