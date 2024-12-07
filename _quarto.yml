@@ -3,6 +3,13 @@ project:
   output-dir: docs
 
 website:
+  comments: 
+    giscus:
+      repo: domkuzz/tsod
+      repo-id: "R_kgDOM-fayA"
+      reactions-enabled: true
+      mapping: title
+      input-position: top
   google-analytics: G-MNBR6FCJ5K
   title: "TSoD"
   description: "The Science of Data"
