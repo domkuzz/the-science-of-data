@@ -11,6 +11,7 @@ listing:
 css: styles.css
 title-block-banner: false
 page-layout: article
+comments: false
 ---
 
 
