@@ -1,6 +1,5 @@
 ---
 title: "Writing"
-comments: false
 css: styles.css
 listing:
   contents: posts
@@ -11,4 +10,5 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: false
+comments: false
 ---
