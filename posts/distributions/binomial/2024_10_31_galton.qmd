@@ -254,4 +254,4 @@ Despite its simplicity, the device visually represents how the Binomial Distribu
 of trials increases. Bernoulli famously used urn models, applying a sampling process with replacement over a discrete number of trials 
 to explain the Binomial Distribution. Both examples show how probability theory can be visualized and understood through simple experiments and applied to more complex, real-world problems. 
 Thank you for sticking around and reading this post to the end. I hope you enjoyed it and learned something new.
-Please feel free to leave a comment if you have any questions or feedback. I am always happy to hear from you!
+Please feel free to leave a comment if you have any questions or feedback. 
