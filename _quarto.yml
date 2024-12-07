@@ -7,7 +7,7 @@ website:
   title: "TSoD"
   description: "The Science of Data"
   comments: 
-    utterances:
+    giscus:
       repo: domkuzz/tsod
   navbar:
     right:
