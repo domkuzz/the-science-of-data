@@ -2,6 +2,10 @@
 title: "Galton Board: The Binomial Distribution, Pascal's Triangle, and the Central Limit Theorem"
 author: "Dom"
 date: "2024-12-05"
+website:
+  comments: 
+    giscus:
+      repo: domkuzz/tsod
 execute: 
   echo: false
 categories: [Stats by hand, distributions]
