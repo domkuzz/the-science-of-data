@@ -1,5 +1,7 @@
 ---
 title: "Writing"
+comments: false
+css: styles.css
 listing:
   contents: posts
   sort: "date desc"
@@ -9,5 +11,4 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: false
-comments: false
 ---
