@@ -24,7 +24,10 @@ page-layout: article
 
 
 # Introduction
-Hello World! I recently bought a Galton Board, and I am fascinated by it. The device is a great example of how statistical concepts can be visualized and understood through simple experiments. This is why I decided to make it the topic of my first post. In this post, I will discuss the experiment and, with it, the concepts of Binomial Distribution, 
+Hello World! This is my first post on this blog. I am excited to share my thoughts and ideas with you. 
+I hope you will enjoy reading them as much as I enjoy writing them. 
+I recently bought a Galton Board, and I am fascinated by it.
+The device is a great example of how statistical concepts can be visualized and understood through simple experiments. This is why I decided to make it the topic of my first post. In this post, I will discuss the experiment and, with it, the concepts of Binomial Distribution, 
 Central Limit Theorem, and Pascal's Triangle.
 
 # Galton Board
