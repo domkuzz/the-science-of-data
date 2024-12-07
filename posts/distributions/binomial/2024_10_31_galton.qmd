@@ -255,3 +255,18 @@ to explain the Binomial Distribution. Both examples show how probability theory 
 Thank you for sticking around and reading this post to the end. I hope you enjoyed it and learned something new.
 Please feel free to leave a comment if you have any questions or feedback. I am always happy to hear from you!
 
+<script src="https://giscus.app/client.js"
+        data-repo="domkuzz/tsod"
+        data-repo-id="R_kgDOM-fayA"
+        data-category="[ENTER CATEGORY NAME HERE]"
+        data-category-id="[ENTER CATEGORY ID HERE]"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
